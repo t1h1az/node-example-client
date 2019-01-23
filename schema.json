@@ -1,0 +1,43 @@
+{
+  "user": {
+    "userName": "",
+    "emailAddress": "",
+    "password": "",
+    "__boxes": "",
+    "privacy": "true",
+    "boxName": "",
+    "boxName": "",
+    "": "",
+    "progress"
+  },
+  "box": {
+    "boxCategory": "",
+    "boxTags": "",
+    "boxProgress": "1",
+    "__author": ""
+  },
+  "card": {
+    "cardFront": "",
+    "cardBack": "",
+    "cardTags": "",
+    "__box": "",
+    "__author": "",
+    "cardProgress": "",
+    "cardTags": "",
+    "createdAt": ""
+  },
+  "comment": {
+    "message": String,
+    "createdAt": Date,
+    "__author": ref User,
+    "likes": Number,
+    "startedThread": 
+  },
+  "schoolclass": {
+      "teacher": ref User,
+      "pupils": [ref User]
+  },
+  "messages": {
+
+  }
+}
